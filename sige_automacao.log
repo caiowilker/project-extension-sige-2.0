@@ -2386,3 +2386,9 @@ Stacktrace:
 2025-04-27 12:04:02,066 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9C654A390>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/edcf5c9419b691a08d80080d2ab3c322
 2025-04-27 12:04:06,517 - INFO - Navegador fechado.
 2025-04-27 12:04:06,701 - INFO - Relatório final salvo em relatorio_final.xlsx
+2025-04-27 13:25:22,459 - INFO - 1 alunos carregados.
+2025-04-27 13:25:46,851 - INFO - Navegador chrome iniciado.
+2025-04-27 13:25:58,613 - INFO - Login realizado com sucesso.
+2025-04-27 13:26:18,639 - INFO - Aluno Alícia Duarte Alves selecionado.
+2025-04-27 13:26:25,048 - ERROR - Erro ao processar Alícia Duarte Alves: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-04-27 13:26:29,110 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021C28C250D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f9aa8751ec91fc27af14306b32b4e454

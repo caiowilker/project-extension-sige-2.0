@@ -150,7 +150,7 @@ class SigeAutomator:
 
         self.preencher_campo_mascarado(By.ID, 'enrollment_responsible_phone', telefone_formatado)
 
-        time.sleep(30)
+        time.sleep(3)
         self.logger.info(f'Dados do aluno {aluno["Nome"]} preenchidos com sucesso.')
 
         # Salvar matrícula
